@@ -31,6 +31,22 @@ body {
   padding: 48px 0;
 }
 
+.site-header-centered {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.site-logo-large {
+  width: clamp(76px, 10vw, 112px);
+  height: clamp(76px, 10vw, 112px);
+  object-fit: contain;
+  margin-bottom: clamp(12px, 2vw, 16px);
+}
+
+.site-header-centered .subtitle {
+  margin-bottom: 0;
+}
+
 h1 {
   margin: 0 0 8px;
   color: var(--dark);
@@ -137,6 +153,10 @@ strong {
     padding: 32px 0;
   }
 
+  .site-header-centered {
+    margin-bottom: 28px;
+  }
+
   .card {
     padding: 20px;
     border-radius: 16px;
@@ -144,28 +164,5 @@ strong {
 
   .links a {
     padding: 15px 16px;
-  }
-}
-
-.site-header-centered {
-  text-align: center;
-  margin-bottom: 34px;
-}
-
-.site-logo-large {
-  width: 108px;
-  height: 108px;
-  object-fit: contain;
-  margin-bottom: 16px;
-}
-
-.site-header-centered .subtitle {
-  margin-bottom: 0;
-}
-
-@media (max-width: 560px) {
-  .site-logo-large {
-    width: 88px;
-    height: 88px;
   }
 }
