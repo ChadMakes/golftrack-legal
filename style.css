@@ -37,10 +37,11 @@ body {
 }
 
 .site-logo-large {
-  width: clamp(76px, 10vw, 112px);
-  height: clamp(76px, 10vw, 112px);
+  width: clamp(170px, 20vw, 260px);
+  height: auto;
+  max-height: 96px;
   object-fit: contain;
-  margin-bottom: clamp(12px, 2vw, 16px);
+  margin-bottom: 18px;
 }
 
 .site-header-centered .subtitle {
